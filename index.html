@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>National Girlfriend Day</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Falling Hearts -->
+  <div id="heart-container"></div>
+
+  <!-- Question Card -->
+  <div class="card" id="question-card">
+    <div class="question-text">Will you be my girlfriend? 💘</div>
+    <div class="buttons">
+      <button class="yes">Yes</button>
+      <button class="no">No</button>
+    </div>
+  </div>
+
+  <!-- Letter Card -->
+  <div class="card hidden" id="letter-card">
+    <div class="heart">💗</div>
+    <h1>Happy National Girlfriend Day</h1>
+
+    <!-- Her Photo -->
+    <div class="photo-center">
+      <img src="images/her6.jpg" id="her-photo" class="photo" alt="Her photo">
+    </div>
+
+    <p class="to">To the most beautiful girl,</p>
+    <p class="message"> Happy National Girlfriend Day, Langga.
+I may not have the perfect words, but I just want to say thank you, thank you for always being there for me. Your presence, your patience, and your love mean everything to me.
+
+I love you deeply not just when things are easy, but especially when things are hard. Even when you pick little fights with me at night, I never stop loving you. In fact, those moments remind me how real and raw our connection is. And through it all, my heart never changes. I still choose you, every single day.
+
+I don’t ever want to lose you. You’re not just part of my life you’ve become my safe space, my peace, my home. This is my last shot at love, and I’m giving it all to you, because I believe in us.
+
+That’s all I really wanted to say today, Langga.
+I love you. truly, deeply, and always.. 💖</p>
+    <p class="signature">,<br>Mark Brian 💖</p>
+
+    <button class="gallery-button" id="open-gallery">Our Pictures 📸</button>
+  </div>
+
+  <!-- Modal Gallery -->
+  <div class="modal hidden" id="gallery-modal">
+    <div class="modal-content">
+      <span class="close" id="close-gallery">&times;</span>
+      <h2>Our Memories ❤️</h2>
+      <div class="gallery">
+        <img src="images/her1.jpg" alt="Memory 1">
+        <img src="images/her2.jpg" alt="Memory 2">
+        <img src="images/her3.jpg" alt="Memory 3">
+        <img src="images/her4.jpg" alt="Memory 4">
+        <img src="images/her5.jpg" alt="Memory 5">
+      </div>
+    </div>
+  </div>
+
+  <!-- Zoom Modal -->
+  <div id="zoom-modal" class="zoom-modal hidden">
+    <img id="zoomed-img" src="" alt="Zoomed Photo">
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bg-music" src="palagi.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
